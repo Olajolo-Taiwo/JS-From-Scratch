@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>Lesson 4</title>
+</head>
+
+<body>
+
+<button onclick="console.log(`Cart quantity: ${cartQuantity}`);">
+  Show Quantity
+</button>
+<button onclick="
+//cartQuantity = cartQuantity + 1;
+//shortcut for reassigning the variable
+//cartQuantity++;
+cartQuantity += 1;
+console.log(`Cart quantity: ${cartQuantity}`);">
+Add to Cart
+</button>
+
+<button
+onclick="
+//cartQuantity = cartQuantity + 2;
+//shortcut for reassigning the variable
+cartQuantity += 2;
+console.log(`Cart quantity: ${cartQuantity}`);">
++2
+</button>
+
+<button onclick="
+//cartQuantity = cartQuantity + 3;
+//shortcut for reassigning the variable
+cartQuantity += 3;
+console.log(`Cart quantity: ${cartQuantity}`);">
++3
+</button>
+
+<button
+onclick="
+cartQuantity = 0;
+console.log(`cart was reset.`);
+console.log(`Cart quantity: ${cartQuantity}`);">
+Reset Cart
+</button>
+
+</body>
+<script src=index.js></script>
+</html>  
